@@ -1,0 +1,22 @@
+name: interview_env
+channels:
+    - defaults
+dependencies:
+    - python=3.12
+    - matplotlib
+    - numpy
+    - imageio
+    - scikit-learn
+    - notebook
+    - pandas
+    - scipy
+    - ipykernel
+    - ipywidgets
+    - statsmodels
+    - jupyter
+    - jupyterlab
+    - pip
+    - pip:
+        - kagglehub
+        - statsmodels
+        - playwright
