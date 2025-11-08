@@ -1,8 +1,14 @@
 name: interview_env
 channels:
+    - pytorch
+    - nvidia
     - defaults
 dependencies:
     - python=3.12
+    - pytorch
+    - torchvision
+    - torchaudio
+    - pytorch-cuda
     - matplotlib
     - numpy
     - imageio
@@ -20,3 +26,6 @@ dependencies:
         - kagglehub
         - statsmodels
         - playwright
+        - transformers
+        - datasets
+        - accelerate
