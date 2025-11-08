@@ -208,4 +208,4 @@ __marimo__/
 
 # PROJECT GITIGNORES
 Codebase/Data/*
-Codebase/Model-Development/specialty_models/Saved-Models/*
+Codebase/Model-Development/Specialty-Models/Saved-Models/*
