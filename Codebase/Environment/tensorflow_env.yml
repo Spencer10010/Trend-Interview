@@ -1,0 +1,32 @@
+name: tensorflow_env
+channels:
+    - pytorch
+    - nvidia
+    - defaults
+dependencies:
+    - python=3.12
+    - matplotlib
+    - numpy
+    - imageio
+    - scikit-learn
+    - notebook
+    - pandas
+    - scipy
+    - ipykernel
+    - ipywidgets
+    - statsmodels
+    - jupyter
+    - jupyterlab
+    - tensorflow
+    - keras
+    - cudatoolkit
+    - cudnn
+    - seaborn
+
+    - pip
+    - pip:
+        - kagglehub
+        - statsmodels
+        - playwright
+        - datasets
+        - accelerate

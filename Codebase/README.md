@@ -1,16 +1,17 @@
 # How to Setup Jupyter Notebook Environment
 
-1. Create a conda environment from the .yml file provided in `/Environment` folder:
-    - If you are running windows, use the Conda Prompt, on Mac or Linux you can just use the Terminal.
-    - Use the command: `conda env create -f interview_env.yml`
-    - This should create an environment named `interview_env`. 
+1. Create a conda environment from the .yml files provided in `/Environment` folder:
+    - If you are running Windows, use the Conda Prompt, on Mac or Linux you can just use the Terminal.
+    - Use the command: `conda env create -f general_env.yml` and `conda env create -f tensorflow_env.yml`
+    - This should create two environments named `general_env` and `tensorflow_env`. 
 2. Activate the conda environment:
-    - Windows command: `activate interview_env` 
-    - MacOS / Linux command: `conda activate interview_env`
+    - You should activate the environment for general_env to work with every notebook except for tensor.ipynb which for this notebook the environment tensor_env should be used. Replace NAME with general or tensor based on relevant needs.
+    - Windows command: `activate NAME_env` 
+    - MacOS / Linux command: `conda activate NAME_env`
 3. Exit conda environment:
     - Use the command: 'conda deactivate'
 
-If adding new dependencies use: 'conda env update --file interview_env.yml --prune' to update the environment.
+If adding new dependencies use: 'conda env update --file general_env.yml --prune' to update the general environment and 'conda env update --file tensor_env.yml --prune' to update the tensor environment.
 
 For more references on conda environments, refer to [Conda Managing Environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) or the [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
@@ -18,4 +19,4 @@ For more references on conda environments, refer to [Conda Managing Environments
 
 First generate the data locally using 'medical_cost_data_preprocessing.py' and 'specialty_data_preprocessing.py' in the `/Data` folder. Running the entirety of these notebooks will produce the datasets' CSVs within the `CSVs` directory.
 
-Then use the model notebooks within to create respective models.
+Then use the model notebooks within to create respective models of interest.

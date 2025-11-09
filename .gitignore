@@ -209,3 +209,4 @@ __marimo__/
 # PROJECT GITIGNORES
 Codebase/Data/*
 Codebase/Model-Development/Specialty-Models/Saved-Models/*
+Codebase/Model-Development/Medical-Cost-Models/Saved-Models/*

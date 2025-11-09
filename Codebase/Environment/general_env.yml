@@ -1,4 +1,4 @@
-name: interview_env
+name: general_env
 channels:
     - pytorch
     - nvidia
@@ -21,6 +21,8 @@ dependencies:
     - statsmodels
     - jupyter
     - jupyterlab
+    - seaborn
+
     - pip
     - pip:
         - kagglehub
