@@ -5,6 +5,70 @@ I produced an in depth discussion about my project, the processes and decisions 
 
 If you would like to view the content of the website locally, feel free to look at the [homepage](docs/index.md), [traditoinal models](docs/classification_and_regression.md), and [text processing models](docs/bert_and_rnn.md) to gain further insight into the order of operations to take for each segment of the project.
 
+The example inputs and outputs can be reproduced in test_model.ipynb, test_bert.ipynb, and test_rnn.ipynb. Below are some example inputs and outputs for the models. This can be replicated for any model of choice.
+
+test_model.ipynb
+
+Below is example input:
+
+patient_data = {
+    # int
+    'age': 42,
+    # 'male' or 'female'
+    'sex': 'female',
+    # float
+    'bmi': 29.5,
+    # int
+    'children': 2,
+    # # 'yes' or 'no'
+    'smoker': 'no',
+    # 'northeast', 'northwest', 'southeast', or 'southwest'
+    'region': 'northeast'
+}
+
+For Regression
+
+Running regression model
+Processing data for a 42 year-old female
+PREDICTION
+-------------------------------------
+Result: $7533.06
+-------------------------------------
+
+For Classification
+
+Running classification model
+Processing data for a 42 year-old female
+PREDICTION
+-------------------------------------
+Result: LOW COSTS EXPECTED FOR THIS PATIENT
+Model Confidence: 98.73%
+-------------------------------------
+
+Both files take in the same input and produce the same output, example input looks like this:
+
+TRANSCRIPTION = """
+2-D M-MODE: , ,1.  Left atrial enlargement with left atrial diameter of 4.7 cm.,2.  Normal size right and left ventricle.,3.  Normal LV systolic function with left ventricular ejection fraction of 51%.,4.  Normal LV diastolic function.,5.
+No pericardial effusion.,6.  Normal morphology of aortic valve, mitral valve, tricuspid valve, and pulmonary valve.,7.  PA systolic pressure is 36 mmHg.,DOPPLER: , ,1.  Mild mitral and tricuspid regurgitation.,2.  Trace aortic and pulmonary regurgitation.
+"""
+
+test_bert.ipynb
+
+PREDICTION
+-------------------------------------
+Specialty:    Cardiovascular / Pulmonary
+Confidence:  64.94%
+-------------------------------------
+
+test_rnn.ipynb
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 2s 2s/step
+PREDICTION
+-------------------------------------
+Specialty:    Cardiovascular / Pulmonary
+Confidence:  84.60%
+-------------------------------------
+
 # File Directory Structure
 This subsection provides a high overview to the directories within this project and provide a quick grasp of where everything is located.
 

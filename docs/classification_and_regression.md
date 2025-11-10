@@ -60,7 +60,7 @@ I wanted to explore the dataset as clusters to gather further insight into how t
 </figure>
 
 <figure style="text-align: center;">
-  <img src="images/cluster_report.png" alt="Mean of Patients in Cluser">
+  <img src="images/cluster_report.png" alt="Mean of Patients in Cluster">
   <figcaption>Figure 7: Average Patient in Each Cluster</figcaption>
 </figure>
 
@@ -106,4 +106,4 @@ For classification, I built models based on gradient boost classification, logis
 
 Overall I was proud of how the models performed after I tuned them with feature engineering and slight modifications to the models.
 
-The testing of each model was interesting seeing how each slightly varied based on the input provided.
+The testing of each model was interesting seeing how each model slightly varied based on the input provided.
