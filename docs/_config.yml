@@ -5,7 +5,6 @@ google_analytics:
 theme: jekyll-theme-cayman
 
 exclude:
-  - Codebase/
   - Gemfile
   - Gemfile.lock
   - jekyll-theme-cayman.gemspec

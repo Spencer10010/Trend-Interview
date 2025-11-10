@@ -213,9 +213,9 @@ Codebase/Model-Development/Specialty-Models/Saved-Models/BERT/*
 Codebase/Model-Development/Medical-Cost-Models/Saved-Models/*
 
 # WEEBSITE GIT IGNORES
-_site
-.sass-cache
-Gemfile.lock
-*.gem
-.jekyll-cache
-.jekyll-cache
+docs/_site
+docs/.sass-cache
+docs/Gemfile.lock
+docs/*.gem
+docs/.jekyll-cache
+docs/.jekyll-cache
