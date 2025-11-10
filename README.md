@@ -13,7 +13,7 @@ This is the ML Model I built for the Trend interview on Monday, November 10th
 
 /Codebase/Model-Development/: Contains the two directories for the models built from the two datasets, this will be extrapolated below.
 
-/Codebase/Model-Development/Medical-Cost-Models/: Contains set of notebooks for each model used for regression models.
+/Codebase/Model-Development/Medical-Cost-Models/: Directories for classification models and regression models, these save their best prodduced models within the Saved-Models directory.
 
 /Codebase/Model-Development/Specialty-Models/: Contains directory for the saved models as well as the set of notebooks for each NLP model used on this dataset such as the RNN under `tensor.ipynb` and the BERT models used under `bert.ipynb` as well as additional metric collection off of the saved models.
 

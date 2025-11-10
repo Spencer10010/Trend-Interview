@@ -31,3 +31,4 @@ dependencies:
         - transformers
         - datasets
         - accelerate
+        - tabulate
