@@ -1,4 +1,4 @@
-name: tensorflow_env
+name: rnn_env
 channels:
     - pytorch
     - nvidia
@@ -7,14 +7,12 @@ dependencies:
     - python=3.12
     - matplotlib
     - numpy
-    - imageio
     - scikit-learn
     - notebook
     - pandas
     - scipy
     - ipykernel
     - ipywidgets
-    - statsmodels
     - jupyter
     - jupyterlab
     - tensorflow
@@ -28,5 +26,6 @@ dependencies:
         - kagglehub
         - statsmodels
         - playwright
+        - transformers
         - datasets
         - accelerate

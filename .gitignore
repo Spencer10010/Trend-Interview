@@ -208,5 +208,6 @@ __marimo__/
 
 # PROJECT GITIGNORES
 Codebase/Data/*
-Codebase/Model-Development/Specialty-Models/Saved-Models/*
+Codebase/Model-Development/Specialty-Models/Saved-Models/RNN/*
+Codebase/Model-Development/Specialty-Models/Saved-Models/BERT/*
 Codebase/Model-Development/Medical-Cost-Models/Saved-Models/*
