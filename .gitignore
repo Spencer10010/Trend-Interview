@@ -211,3 +211,11 @@ Codebase/Data/*
 Codebase/Model-Development/Specialty-Models/Saved-Models/RNN/*
 Codebase/Model-Development/Specialty-Models/Saved-Models/BERT/*
 Codebase/Model-Development/Medical-Cost-Models/Saved-Models/*
+
+# WEEBSITE GIT IGNORES
+_site
+.sass-cache
+Gemfile.lock
+*.gem
+.jekyll-cache
+.jekyll-cache

@@ -1,0 +1,16 @@
+title: Trend Health Partners Interview
+description:
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
+
+exclude:
+  - Codebase/
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-theme-cayman.gemspec
+  - script/
+  - vendor/
+  - .git/
+  - .gitignore
+  - README.md
